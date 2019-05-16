@@ -55,6 +55,7 @@
       bottom: 0;
       left: 0;
       background-color: #333333E6;
+      color: white;
       padding: 2px;
       text-align: center;
     }
@@ -63,13 +64,15 @@
   .tileBack {
     transform: rotateY(180deg);
 
+    display: flex;
+    align-items: center;
     background-color: black;
     color: white;
   }
 
   .tileDescription {
-    margin: 50% 0;
     padding: 0 10px;
     text-align: center;
+    width: 100%;
   }
 }
